@@ -6,6 +6,7 @@ public class ScoreScript : MonoBehaviour
     public Transform player;
     public Text scoretext;
     private float InitialX;
+    public bool gameHasEnded = false;
 
 
 	void Start()
@@ -15,7 +16,7 @@ public class ScoreScript : MonoBehaviour
 
     	void Update()
     	{
-        	if (gameHasEnded) 
+        	if (!gameHasEnded) 
         	{  
 			float score = player.position.x - InitialX;
 			scoretext.text = score.ToString("0");

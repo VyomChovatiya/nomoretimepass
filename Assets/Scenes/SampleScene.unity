@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 22012330}
   m_Layer: 0
   m_Name: Obstacle3 (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1823153584}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &125620738
@@ -1601,7 +1601,7 @@ GameObject:
   - component: {fileID: 494387522}
   m_Layer: 0
   m_Name: Obstacle3 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2543,37 +2543,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &883546405
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883546407}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &883546407
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883546405}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &982657421
 GameObject:
   m_ObjectHideFlags: 0
@@ -2810,7 +2779,7 @@ GameObject:
   - component: {fileID: 1048245926}
   m_Layer: 0
   m_Name: Obstacle3 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3706,7 +3675,7 @@ GameObject:
   - component: {fileID: 1351055658}
   m_Layer: 0
   m_Name: Obstacle3 (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4039,7 +4008,7 @@ GameObject:
   - component: {fileID: 1460715818}
   m_Layer: 0
   m_Name: Obstacle3 (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4150,7 +4119,7 @@ GameObject:
   - component: {fileID: 1476569065}
   m_Layer: 0
   m_Name: Obstacle3 (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4483,7 +4452,7 @@ GameObject:
   - component: {fileID: 1644169911}
   m_Layer: 0
   m_Name: Obstacle3 (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4594,7 +4563,7 @@ GameObject:
   - component: {fileID: 1668815570}
   m_Layer: 0
   m_Name: Obstacle3 (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4902,6 +4871,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d4b4730c3e0a91c8ea9b19d6fd6f4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  player: {fileID: 1823153587}
+  scoretext: {fileID: 1753646482}
+  gameHasEnded: 0
 --- !u!1 &1767539974
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,4 +6494,3 @@ SceneRoots:
   - {fileID: 1694230356}
   - {fileID: 560909983}
   - {fileID: 125620738}
-  - {fileID: 883546407}

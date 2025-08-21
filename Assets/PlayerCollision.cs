@@ -6,10 +6,10 @@ public class PlayerCollision : MonoBehaviour {
 	public ScoreScript scoreScript;
 
  	void OnCollisionEnter(UnityEngine.Collision collisionInfo){
-    		if (collisionInfo.collider.tag == "Obstacle"F) {
+    		if (collisionInfo.collider.tag == "Obstacle") {
     		movement.enabled = false;
     		scoreScript.StopScore();
-    		FindObjectOfType<GameManager>().Endgame();
+    		//FindObjectOfType<GameManager>().Endgame();
     	}
     }
 }
